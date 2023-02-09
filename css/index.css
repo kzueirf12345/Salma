@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p,
+figure,
+blockquote {
+    margin: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Roboto;
+    color: #1F1E1E;
+    font-weight: 400;
+    font-size: 0.83vw;
+}
+
+@media (min-width: 1600px) {
+
+    body,
+    .btn {
+        font-size: 0.65vw;
+    }
+}
+
+@media (min-width: 2000px) {
+
+    body,
+    .btn {
+        font-size: 0.5vw;
+    }
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #1F1E1E;
+    transition: color 0.5s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #474757;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.btn {
+    padding: 3% 6%;
+    color: #FFFFFF;
+    background-color: #1F1E1E;
+    border-radius: 4%;
+    border: 0;
+    font-size: 0.83vw;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #474757;
+}
+
+h2 {
+    font-size: 466.67%;
+}
+
+h3 {
+    font-size: 366.67%;
+}
+
+h4 {
+    font-size: 125%;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+/* -----MODAL--------------------------- */
+
+.modal ::-webkit-input-placeholder,
+.modal ::-moz-placeholder,
+.modal :-ms-input-placeholder,
+.modal :-moz-placeholder {
+    font-size: 200%;
+}
+
+.modal-body label {
+    font-size: 3vw;
+}
+
+.modal-footer label {
+    font-size: 2.5vw;
+}
+
+@media (min-width: 768px) {
+    .modal-body label {
+        font-size: 1.5vw;
+    }
+
+    .modal-footer label {
+        font-size: 1.2vw;
+    }
+}
+
+@media (min-width: 1440px) {
+    .modal-body label {
+        font-size: 1vw;
+    }
+
+    .modal-footer label {
+        font-size: 0.7vw;
+    }
+}
+
+/* -----HEADER--------------------------- */
+.header {
+    background-color: #F6F7F1;
+}
+
+.header .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 6.94vw;
+    padding-right: 6.94vw;
+}
+
+.header .row {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header .logo img {
+    width: 5.56vw;
+}
+
+.header .navbar-item img {
+    height: 1.38889vw;
+}
+
+.hero-intro {
+    color: #FFFFFF;
+}
+
+/* -----INTRO--------------------------- */
+
+.intro .container {
+    color: #FFFFFF;
+}
+
+.intro .img-fluid {
+    z-index: -100;
+}
+
+.text-intro {
+    margin-bottom: 2.2222%;
+}
+
+.hero-intro {
+    margin-bottom: 6.1111%;
+}
+
+.shop-intro {
+    bottom: 6.918%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hr-intro {
+    size: 1px;
+    color: white;
+    width: 100%;
+    margin-top: 1.73%;
+    margin-bottom: 0.786%;
+}
+
+/* -----ADVANTAGES--------------------------- */
+
+.text-advantages {
+    font-size: 300%;
+    text-align: center;
+}
+
+.advantage-number {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+}
+
+.advantage:not(:first-child, :last-child) {
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+
+/* -----PRODUCTS--------------------------- */
+
+.anchor-products {
+    position: relative;
+    top: -25vh;
+}
+
+.hr-heading {
+    color: #1F1E1E;
+    size: 2px;
+    width: 15vw;
+    margin-right: 1%;
+}
+
+.text-header {
+    font-size: 25%;
+}
+
+.products .accordion-button {
+    font-size: inherit;
+}
+.products .accordion select,
+.products .accordion option,
+.products .accordion label {
+    font-size: 200%;
+}
+
+.products .accordion .header-filter {
+    font-size: 250%;
+}
+
+.products .accordion .form-check {
+    margin: 0;
+    min-height: 1.5em;
+}
+
+.product-btn {
+    background-color: #EEEEE9;
+    transition: background-color 0.5s;
+}
+
+.product-btn:hover {
+    background-color: #b8b8b3;
+}
+
+.product-btn:active {
+    background-color: #888882;
+}
+
+.products .product-card .name {
+    font-size: 125%;
+}
+
+/* -----FOOTAGE--------------------------- */
+
+.text-footage {
+    font-size: 166.67%;
+}
+
+.card-footage .text-card {
+    padding-left: 7.5%;
+}
+
+/* -----OPINION--------------------------- */
+
+.story-opinion .text-story {
+    font-size: 200%;
+}
+
+.block-story {
+    background-color: #D5D8D1;
+}
+
+/* -----FOOTER--------------------------- */
+
+.footer .navbar-item img {
+    height: 2.22vw;
+}
+
+.footer .navbar .text-item {
+    font-size: 220%;
+}
